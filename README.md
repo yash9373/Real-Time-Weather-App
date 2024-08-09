@@ -1,16 +1,54 @@
-<p align="center">
-<img src="https://www.htmlhints.com/image/react/reactWeatherApp.png" width="100%">
-</p>
+# Real-Time Weather App
 
-<p align="center">
-  View Complete <a href="https://www.htmlhints.com/article/how-to-create-weather-app-using-reactjs-with-current-location-search-city/93">Installation details</a>.
- </p>
- <p align="center">
-  View <a href="https://master.d2gxbs6vwhkz68.amplifyapp.com/">Live demo</a>.
- </p>
+## Description
 
-## Setup
+A responsive web application that provides real-time weather updates based on the user's current location. It features animated weather icons, current temperature, and date/time display.
 
-```
-npm i && npm start
-```
+## Features
+
+- Real-time weather updates
+- Animated weather icons
+- Temperature in Celsius and Fahrenheit
+- Current date and time
+
+## Installation
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/your-username/Real-Time-Weather-App.git
+    ```
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    cd Real-Time-Weather-App
+    ```
+
+3. **Install Dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Add API Keys:**
+
+    Create `src/apiKeys.js` with your API key:
+
+    ```javascript
+    const apiKeys = {
+      base: "https://api.openweathermap.org/data/2.5/",
+      key: "YOUR_API_KEY_HERE",
+    };
+
+    export default apiKeys;
+    ```
+
+5. **Run the Application:**
+
+    ```bash
+    npm start
+    ```
+
+    Visit `http://localhost:3000` in your browser.
+
